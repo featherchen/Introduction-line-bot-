@@ -14,9 +14,9 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('introlinebot/', include('introlinebot.urls'))ㄝ #包含應用程式的網址
+    path('introlinebot/', include('introlinebot.urls')) #包含應用程式的網址
 ]
