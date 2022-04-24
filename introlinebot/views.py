@@ -7,7 +7,7 @@ from linebot import LineBotApi, WebhookParser
 from linebot.exceptions import InvalidSignatureError, LineBotApiError
 from linebot.models import MessageEvent, TextSendMessage
 
-from .intro import academic_intro
+from .intro import academic_intro, tech_intro, reason_intro, open_source_intro, side_project_intro, try_again
 
 line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
 parser = WebhookParser(settings.LINE_CHANNEL_SECRET)
@@ -37,27 +37,27 @@ def introduce(request):
                 elif event.message.text == '2':
                     line_bot_api.reply_message(  
                         event.reply_token,
-                        TextSendMessage(text='開源')
+                        TextSendMessage(text=reason_intro)
                     )
                 elif event.message.text == '3':
                     line_bot_api.reply_message( 
                         event.reply_token,
-                        TextSendMessage(text='Side Project')
+                        TextSendMessage(text=open_source_intro)
                     )
                 elif event.message.text == '4':
                     line_bot_api.reply_message(  
                         event.reply_token,
-                        TextSendMessage(text='加入line的理由')
+                        TextSendMessage(text=side_project_intro)
                     )
                 elif event.message.text == '5':
                     line_bot_api.reply_message(  
                         event.reply_token,
-                        TextSendMessage(text='擅長的技術')
+                        TextSendMessage(text=tech_intro)
                     )
                 else:
                     line_bot_api.reply_message( 
                         event.reply_token,
-                        TextSendMessage(text='try again')
+                        TextSendMessage(text=try_again)
                     ) 
         return HttpResponse()
     else:
