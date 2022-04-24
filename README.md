@@ -2,7 +2,13 @@
 
 A self introduction of Chen Liang-Chun
 
+## ID and QRCode
+
+![image](https://github.com/featherchen/self-introduction-line-bot/tree/main/img/id_qrcode.png)
+
 ## Result
+
+![image](https://github.com/featherchen/self-introduction-line-bot/tree/main/img/result.png)
 
 ## Reference
 
