@@ -6,7 +6,8 @@ from django.conf import settings
 from linebot import LineBotApi, WebhookParser
 from linebot.exceptions import InvalidSignatureError, LineBotApiError
 from linebot.models import MessageEvent, TextSendMessage
-    
+
+from reply import academic_intro
 line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
 parser = WebhookParser(settings.LINE_CHANNEL_SECRET)
     
@@ -30,7 +31,7 @@ def introduce(request):
                 if event.message.text == '1':
                     line_bot_api.reply_message(  
                         event.reply_token,
-                        TextSendMessage(text='學術')
+                        TextSendMessage(text=academic_intro)
                     )
                 elif event.message.text == '2':
                     line_bot_api.reply_message(  
