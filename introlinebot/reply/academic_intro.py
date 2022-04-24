@@ -1,12 +1,4 @@
-academic_intro = """
-dsafsdfsdafsdaffffffffdsaadssssssssssssssssssssssssssssss
-
-asfdsafsadfsdflkl;kl;klks;adlfklsadkf;lsadkfl;sadkflsdkfl;kasd;l
-
-asfdsafsadfsdflkl;kl;klks;adlfklsadkf;lsadkfl;sadkflsdkfl;kasd;l
-
-dsfasdfsadfsdfsafasdddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-"""
+academic_intro = """dsafsdfsdafsdaffffffffdsaadssssssssssssssssssssssssssssss"""
 
 
 
