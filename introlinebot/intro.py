@@ -20,7 +20,7 @@ side_project_intro = """NTUEE+網站是一個用來聯繫電機系系友跟在�
 
 reason_intro = """Line是全球數一數二的即時通訊軟體，在臺灣更是幾乎所有人都有使用，身為軟體工程師，自然會希望自己參與開發的產品能被全世界的人所使用，因此當得知有機會加入Line進行1年的實習時，我便立即投遞履歷了。
 
-這個計畫的Qualifications跟我的背景十分符合，我也有數次使用line提供的sdk的經驗，對於這些工具並不陌生。希望能有機會加入Line學習並貢獻我的能力。"""
+這個計畫的Qualifications跟我的背景十分符合，我也有數次使用Line提供的sdk的經驗，對於這些工具並不陌生。希望能有機會加入Line學習並貢獻我的能力。"""
 
 tech_intro = """我擁有的技能簡介如下
 Programming： C, C++, Python, Javascript, Node.js, Shell Script, MATLAB
@@ -28,7 +28,7 @@ Toolkits/Libraries： React, ExpressJS, MongoDB, PyTorch
 Languages： Chinese, English
 Others： Git, LaTeX
 
-如此之外我也很擅長學習新事物，目前正在努力學習Java、k8s相關的技能。"""
+除此之外我也很擅長學習新事物，目前正在努力學習Java、k8s相關的技能。"""
 
 try_again = """如果想要了解：
 

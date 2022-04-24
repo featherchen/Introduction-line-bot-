@@ -4,9 +4,10 @@ A self introduction of Chen Liang-Chun
 
 ## Result
 
-## Resourse
+## Reference
 
 https://www.learncodewithmike.com/2020/06/python-line-bot.html
 https://www.learncodewithmike.com/2020/07/python-line-bot-deploy-to-heroku.html
 https://stackoverflow.com/questions/71712258/error-could-not-build-wheels-for-backports-zoneinfo-which-is-required-to-insta
 https://stackoverflow.com/questions/53209189/typeerror-init-missing-1-required-positional-argument-app-module
+https://developers.line.biz/zh-hant/docs/messaging-api/building-sample-bot-with-heroku/
