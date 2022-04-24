@@ -3,5 +3,5 @@ from . import views
     
 urlpatterns = [
     # path('callback', views.callback)
-    path('callback', views.introduce)
+    path('introduce', views.introduce)
 ]
