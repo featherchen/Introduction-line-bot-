@@ -32,7 +32,7 @@ def introduce(request):
                 if event.message.text == '1':
                     line_bot_api.reply_message(  
                         event.reply_token,
-                        TextSendMessage(text=str(academic_intro))
+                        TextSendMessage(text=academic_intro.academic_intro)
                     )
                 elif event.message.text == '2':
                     line_bot_api.reply_message(  
