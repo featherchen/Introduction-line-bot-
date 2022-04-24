@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'introlinebot.apps.IntrolinebotConfig',
 ]
 
 MIDDLEWARE = [
@@ -51,7 +53,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    'introlinebot.apps.IntrolinebotConfig',
 ]
 
 ROOT_URLCONF = 'mylinebot.urls'
